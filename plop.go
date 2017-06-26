@@ -7,15 +7,14 @@ import (
 )
 
 func main() {
-	fmt.Println("!selpmaxe oG ,olleH")
+	fmt.Println("PlopIplop")
 	domainList := [...] string {
 		"bulko.net",
 		"koregraf.com",
-		"golga.io"	}
+		"golga.io" }
 
 	for i := 0; i < len(domainList); i++ {
-		fmt.Println(domainList[i])
 		addr, err := net.LookupHost(domainList[i])
-		fmt.Println(addr, err)
+		fmt.Println(domainList[i], addr, err)
 	}
 }
